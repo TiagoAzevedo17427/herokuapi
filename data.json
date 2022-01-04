@@ -1,0 +1,13 @@
+[
+    {
+        "name": "lebron",
+        "team": "lakers",
+        "pointPerGame" : 27
+    }
+    ,
+    {
+        "name": "tiago",
+        "team": "knicks",
+        "pointPerGame" : 23
+    }
+]
