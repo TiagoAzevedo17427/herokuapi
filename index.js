@@ -18,12 +18,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/players", (req, res) => {
-    request(
-        { url: 'https://herokuapitestproject.herokuapp.com/players' },
-        (error, response) => {
-          if (error || response.statusCode !== 200) {
-            return res.status(500).json({ type: 'error', message: err.message });
-          }
     res.send(importData)
 })
 
