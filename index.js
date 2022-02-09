@@ -1,9 +1,12 @@
+import cors from 'cors'
+
 const express = require('express');
 const app = express();
 const importData = require('./data.json')
 let port = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(cors());
 
 
 app.get("/", (req, res) => {
